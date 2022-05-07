@@ -1,0 +1,22 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(16, 0fr);
+  border-style: dotted;
+  border-color: black;
+}
+
+.grid {
+  width: 20px;
+  height: 20px;
+  border-style: dotted;
+  border-color: black;
+}
+
+.grid.colored {
+  background-color: black;
+}
