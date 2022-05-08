@@ -1,24 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+
 body {
-  background-color: white;
+  background-color: #2e3340;
   color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #e5e9f0;
+}
+
+h1 {
+  font-style: bold;
+}
+
+.card {
+  background-color: #4c566a;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 5%;
+  padding: 5%;
+
+  border-radius: 10px;
+}
+
+.card .left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: large;
+  margin: 30px;
+  padding: 0;
+}
+
+.card .right {
+  margin: 0 30px;
 }
 
 .grid-container {
-  position: fixed;
+  background-color: #d8dee9;
   size: 960px 960px;
   display: grid;
   grid-template-columns: repeat(64, 0fr);
-  border-style: dotted;
-  border-color: black;
+  border-style: none;
+  border-radius: 8px;
 }
 
 .grid-cell {
-  width: calc(960px / 64);
-  height: calc(960px / 64);
+  width: calc(400px / 64);
+  height: calc(400px / 64);
   margin: 0;
   border: 0;
 }
 
 .grid-cell.colored {
-  background-color: black;
+  background-color: #2e3440;
+}
+
+button {
+  background-color: #81a1c1;
+  color: #e5e9f0;
+  font-size: normal;
+  font-style: bold;
+  padding: 10px 30px;
+  margin: 10px;
+
+  border-style: none;
+  border-radius: 5px;
 }

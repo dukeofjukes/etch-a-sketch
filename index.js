@@ -26,8 +26,8 @@ function initGrid() {
     const newGridDiv = document.createElement("div");
     newGridDiv.className = "grid-cell";
     newGridDiv.id = `grid-${i}`;
-    newGridDiv.style.width = `${960 / numRows}px`;
-    newGridDiv.style.height = `${960 / numRows}px`;
+    newGridDiv.style.width = `${400 / numRows}px`;
+    newGridDiv.style.height = `${400 / numRows}px`;
     gridContainer.appendChild(newGridDiv);
     grid.push(newGridDiv);
   }
