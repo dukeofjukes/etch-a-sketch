@@ -1,7 +1,6 @@
-/* definitions */
 const gridContainer = document.querySelector("#main-container");
 const resetBtn = document.querySelector("#reset-btn");
-const numRows = 16;
+const numRows = 64;
 const gridSize = numRows * numRows;
 
 let grid = initGrid();
@@ -12,6 +11,7 @@ resetBtn.addEventListener("click", (e) => {
 
 function initGrid() {
   let grid = Array();
+
   for (let i = 0; i < gridSize; i++) {
     const newGridDiv = document.createElement("div");
     newGridDiv.className = "grid-cell";

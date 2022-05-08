@@ -1,7 +1,7 @@
 :root {
-  --cell-size: 20px;
-  --num-cols: 16;
-  --grid-width: calc(var(var(--cell-size)) * (var(--num-cols)));
+  --cell-size: 12px;
+  --num-cols: 64;
+  --grid-width: calc(var(--cell-size) * (var(--num-cols)));
 }
 
 body {
