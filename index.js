@@ -12,8 +12,8 @@ for (let i = 0; i < gridSize; i++) {
   grid.push(newGridDiv);
 }
 
-// grid.forEach((cell) => {
-//   cell.addEventListener("hover", (e) => {
-//     cell.classList.add("colored");
-//   });
-// });
+grid.forEach((cell) => {
+  cell.addEventListener("mouseover", (e) => {
+    cell.classList.add("colored");
+  });
+});
