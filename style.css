@@ -19,13 +19,13 @@ body {
   border-color: black;
 }
 
-.grid {
+.grid-cell {
   width: var(--cell-size);
   height: var(--cell-size);
   margin: 0;
   border: 0;
 }
 
-.grid.colored {
+.grid-cell.colored {
   background-color: black;
 }
