@@ -1,7 +1,7 @@
 :root {
   --cell-size: 20px;
-  --num-cells: 16;
-  --grid-size: calc(var(var(--cell-size)) * (var(--num-cells)));
+  --num-cols: 16;
+  --grid-width: calc(var(var(--cell-size)) * (var(--num-cols)));
 }
 
 body {
@@ -11,10 +11,10 @@ body {
 
 .grid-container {
   position: fixed;
-  width: var(--grid-size);
-  height: var(--grid-size);
+  width: var(--grid-width);
+  height: var(--grid-width);
   display: grid;
-  grid-template-columns: repeat(var(--num-cells), 0fr);
+  grid-template-columns: repeat(var(--num-cols), 0fr);
   border-style: dotted;
   border-color: black;
 }
