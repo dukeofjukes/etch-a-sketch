@@ -1,6 +1,7 @@
 const gridContainer = document.querySelector("#main-container");
 const resetBtn = document.querySelector("#reset-btn");
 const newGridBtn = document.querySelector("#new-grid-btn");
+const slider = document.querySelector("#grid-size");
 
 let numRows = 64;
 let gridSize = numRows * numRows;
@@ -48,12 +49,7 @@ function resetGrid() {
 }
 
 function resizeGrid() {
-  let numRowsStr = prompt("Enter a grid width (1-100):", "64");
-  let prevNumRows = numRows;
-  numRows = parseInt(numRowsStr);
-  if (numRows > 100 || numRows < 0) {
-    numRows = prevNumRows;
-  }
+  numRows = slider.value;
   gridSize = numRows * numRows;
   grid = initGrid();
 }
