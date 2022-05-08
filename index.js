@@ -21,4 +21,6 @@ function initGrid() {
       cell.classList.add("colored");
     });
   });
+
+  return grid;
 }
