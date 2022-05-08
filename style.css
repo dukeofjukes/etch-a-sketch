@@ -1,9 +1,3 @@
-:root {
-  --cell-size: 12px;
-  --num-cols: 64;
-  --grid-width: calc(var(--cell-size) * (var(--num-cols)));
-}
-
 body {
   background-color: white;
   color: black;
@@ -11,17 +5,16 @@ body {
 
 .grid-container {
   position: fixed;
-  width: var(--grid-width);
-  height: var(--grid-width);
+  size: 960px 960px;
   display: grid;
-  grid-template-columns: repeat(var(--num-cols), 0fr);
+  grid-template-columns: repeat(64, 0fr);
   border-style: dotted;
   border-color: black;
 }
 
 .grid-cell {
-  width: var(--cell-size);
-  height: var(--cell-size);
+  width: calc(960px / 64);
+  height: calc(960px / 64);
   margin: 0;
   border: 0;
 }
