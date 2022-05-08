@@ -1,5 +1,9 @@
-# etch-a-sketch
+# sketch!
 
-See the finished product [here](https://dukeofjukes.github.io/etch-a-sketch/)
+![preview image of website](./images/preview.jpg)
 
-An etch-a-sketch style drawing app made in JavaScript. Created as part of The Odin Project web development course.
+Play with the finished product [here](https://dukeofjukes.github.io/etch-a-sketch/).
+
+An etch-a-sketch style drawing app made in JavaScript. Created as part of [The Odin Project](https://www.theodinproject.com) web development course.
+
+Thanks to Savannah Gunter (my girlfriend) for the preview drawing.
