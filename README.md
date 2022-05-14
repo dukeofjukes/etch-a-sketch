@@ -6,4 +6,4 @@ Play with the finished product [here](https://dukeofjukes.github.io/etch-a-sketc
 
 An etch-a-sketch style drawing app made in JavaScript. Created as part of [The Odin Project](https://www.theodinproject.com) web development course.
 
-Thanks to Savannah Gunter (my girlfriend) for the preview drawing.
+Thanks to my girlfriend, Savannah Gunter, for the preview drawing.
